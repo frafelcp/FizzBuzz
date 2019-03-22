@@ -8,13 +8,15 @@
 
 
 for (let numero = 1; numero <= 100; numero++) {
-    
-    let salida = "";
 
-    if (numero % 3 == 0) salida += "Fizz";
+    if (numero % 3 == 0) {
 
-    if (numero % 5 == 0) salida += "Buzz";
+        console.log("Fizz");
 
-    console.log(salida || numero);    
+    } else {
+
+        console.log(numero);
+
+    }
 
 }
